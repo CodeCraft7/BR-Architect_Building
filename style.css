@@ -1,0 +1,166 @@
+/* Css Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* navbar */
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   padding: 20px;
+   font-size: 20px;
+   position: sticky;
+   top: 0;
+   background-color: #fff;
+   box-shadow: 3px 2px 3px black;
+}
+nav b{
+   font-weight: 100;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 0px 10px;
+    border-bottom: 1px solid #000;
+}
+nav a:hover{
+    background-color: rgb(209, 209, 209);
+}
+/* Front-Page Section */
+.front-page{
+    background-image: url(img/architect.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+.front-page big{
+    background-color: rgb(44, 44, 44);
+    padding: 5px 10px;
+    opacity: 0.75;
+}
+.front-page b{
+    font-weight: 100;
+}
+/* Projects Section  */
+.Projects{
+    padding: 30px;
+    padding-bottom:0 ;
+}
+.Projects h1{
+    font-size: 35px;
+    margin: 100px 0px 10px 0px;
+}
+.Projects-img{
+    display: flex;
+    margin: 10px 0px;
+}
+.Projects-img img{
+    height: 250px;
+    margin: 2px;
+    
+}
+.Projects-images h2{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border:2px solid #fff;   
+}
+/* About Section  */
+.About{
+    padding: 35px;
+}
+.About-card{
+    display: flex;
+}
+.About h1{
+    font-size: 35px;
+    margin: 70px 0px 10px 0px;
+}
+.About h2{
+    font-size: 35px;
+    font-weight: 100;
+}
+.About h4{
+    font-size: 20px;
+    color: grey;
+}
+.About p{
+    font-size:20px;
+    margin: 20px 0;
+}
+.About-images img{
+    height: 250px;
+    margin: 2px; 
+}
+.About button{
+    width: 98%;
+    font-size: 30px;
+    border: none;
+}
+.About button:hover{
+     background-color: gainsboro;
+}
+/* Contact Section  */
+.Contact{
+    padding: 35px;
+}
+.Contact h1{
+    font-size: 35px;
+    margin: 70px 0px 10px 0px;
+}
+.Contact p{
+    font-size:20px;
+    margin: 20px 0;
+}
+.Contact input{
+    font-size:20px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+.Contact select{
+    font-size:20px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+.Contact button{
+    width: 100%;
+    font-size: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+.Contact button:hover{
+     background-color: gainsboro;
+}
+/* Map select  */
+.Map{
+    padding: 35px;
+}
+.Map h1{
+    font-size: 35px;
+    margin: 70px 0px 10px 0px;
+}
+.Map img{
+    padding: 10px 0;
+   width: 100%;
+}
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-decoration: underline;
+}
